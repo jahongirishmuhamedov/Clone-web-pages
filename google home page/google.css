@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.navbar ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navbar ul li{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.menu-icon{
+    height: 30px;
+    width: 30px;
+
+}
+
+.user-icon{
+    height: 30px;
+    width: 30px;
+}
+
+.circle-shadow{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-shadow:hover{
+    background-color: rgba(241, 243, 244, 1);
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4.5rem;
+}
+
+.logo-img{
+    width: 300px;
+}
+
+.search-bar{
+    border: 1px solid lightgray;
+    height: 45px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 30px;
+}
+
+.search-bar:hover{
+    box-shadow: 0px 0px 4px 0px #b7b0b0;
+}
+
+.search-icon,
+.microphone-icon{
+    height: 40px;
+    width: 40px;
+}
+
+.search-bar input{
+    height: 40px;
+    width: 450px;
+    border: none;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+.add-btn{
+    margin-top: 3rem;
+}
+
+.add-btn button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+    margin-left: 8px;
+}
+
+.add-btn:hover{
+    background-color: rgba(241, 243, 244, 1);
+}
+
+.add-btn p {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.right-footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.customize-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.pen-shadow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-right: 1.3rem;
+}
+
+.pen-shadow:hover{
+    background-color: rgba(241, 243, 244, 1);
+}
+
+/*@media all and (min-width: 650px){*/
+/*   .navbar{*/
+/*       form{*/
+/*           max-width: 350px;*/
+/*       }*/
+/*   }*/
+/*}*/
+
+
